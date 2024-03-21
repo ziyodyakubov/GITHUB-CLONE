@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.conatainer-mine {
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+}
+
 @font-face {
     font-family: "Segoe";
     src: url("./assets/fonts/Segoe\ UI.woff") format(".woff");
@@ -35,9 +40,4 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif
-}
-
-.conatainer {
-    max-width: 1280px !important;
-    margin: 0 auto !important;
 }
